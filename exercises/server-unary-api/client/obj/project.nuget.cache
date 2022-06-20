@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "XHMRsWNOxHwuHbXin8i2XK117dr1uxjLIZeorvIWInvwEdNZTMr1PN4vJoXnUQme7qQt9RKAB5Ug+U+LPthYfQ==",
+  "success": true,
+  "projectFilePath": "/Users/diego_canizales/Projects/grpc-csharp-udemy/exercises/server-unary-api/client/client.csproj",
+  "expectedPackageFiles": [
+    "/Users/diego_canizales/.nuget/packages/google.protobuf/3.21.1/google.protobuf.3.21.1.nupkg.sha512",
+    "/Users/diego_canizales/.nuget/packages/grpc/2.46.3/grpc.2.46.3.nupkg.sha512",
+    "/Users/diego_canizales/.nuget/packages/grpc.core/2.46.3/grpc.core.2.46.3.nupkg.sha512",
+    "/Users/diego_canizales/.nuget/packages/grpc.core.api/2.46.3/grpc.core.api.2.46.3.nupkg.sha512",
+    "/Users/diego_canizales/.nuget/packages/grpc.tools/2.46.3/grpc.tools.2.46.3.nupkg.sha512",
+    "/Users/diego_canizales/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

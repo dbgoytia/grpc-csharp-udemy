@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{330966A2-C4EA-4172-A6D4-D730FD911B53}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="server/server.csproj">
+    <Files>
+      <File FileName="server/CalculatorServiceImpl.cs" Line="12" Column="48" />
+      <File FileName="server/Program.cs" Line="18" Column="93" />
+      <File FileName="server/server.csproj" Line="36" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="server-unary-api" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.client PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
