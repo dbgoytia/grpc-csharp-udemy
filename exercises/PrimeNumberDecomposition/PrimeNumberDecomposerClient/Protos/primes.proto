@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GRPCPrimeNumberDecomposer";
+
+package primes;
+
+service PrimeNumberDecomposer {
+    rpc PrimeNumberDecompose (PrimeNumberDecompositionRequest) returns (stream PrimeNumberDecompositionResponse) {};
+}
+
+message PrimeNumberDecompositionRequest {
+    string number = 1;
+}
+
+message PrimeNumberDecompositionResponse {
+    string message = 1;
+}
