@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberDecompositionClient", "PrimeNumberDecompositionClient\PrimeNumberDecompositionClient.csproj", "{28E1BEE5-F15D-41DB-B8AC-64C3B7ED492F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberDecomposer", "PrimeNumberDecomposer\PrimeNumberDecomposer.csproj", "{AB71001C-E68A-4A04-BA1B-51B947C9EE6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E1BEE5-F15D-41DB-B8AC-64C3B7ED492F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E1BEE5-F15D-41DB-B8AC-64C3B7ED492F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E1BEE5-F15D-41DB-B8AC-64C3B7ED492F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E1BEE5-F15D-41DB-B8AC-64C3B7ED492F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB71001C-E68A-4A04-BA1B-51B947C9EE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB71001C-E68A-4A04-BA1B-51B947C9EE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB71001C-E68A-4A04-BA1B-51B947C9EE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB71001C-E68A-4A04-BA1B-51B947C9EE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
