@@ -9,6 +9,9 @@
   <ItemGroup>
     <None Remove="Protos\primes.proto" />
     <None Remove="Protos\" />
+    <None Remove="Grpc.Net.Client" />
+    <None Remove="Google.Protobuf" />
+    <None Remove="Grpc.Tools" />
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="Protos\primes.proto" GrpcServices="Server">
@@ -21,6 +24,17 @@
     </Protobuf>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Protos\*.proto" GrpcServices="Client"/>
+    <Folder Include="Protos\*.proto" GrpcServices="Client" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grpc.Net.Client" Version="2.46.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.21.1" />
+    <PackageReference Include="Grpc.Tools" Version="2.47.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="Protos/*.proto" GrpcServices="Client" />
   </ItemGroup>
 </Project>

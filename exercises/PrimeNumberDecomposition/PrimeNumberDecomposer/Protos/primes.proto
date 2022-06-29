@@ -4,14 +4,14 @@ option csharp_namespace = "GRPCPrimeNumberDecomposer";
 
 package primes;
 
-service PrimeNumberDecomposer {
-    rpc PrimeNumberDecompose (PrimeNumberDecompositionRequest) returns (stream PrimeNumberDecompositionResponse) {};
+service PrimeNumberService {
+    rpc PrimeNumberDecomposition (PrimeNumberDecompositionRequest) returns (stream PrimeNumberDecompositionResponse) {};
 }
 
 message PrimeNumberDecompositionRequest {
-    string number = 1;
+    int32 number = 1;
 }
 
 message PrimeNumberDecompositionResponse {
-    string message = 1;
+    int32 prime_factor = 1;
 }
